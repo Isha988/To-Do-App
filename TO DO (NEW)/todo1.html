@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,200&display=swap" rel="stylesheet"> 
+    <script defer type="text/javascript" src="script1.js"></script>
+    <title>To Do App</title>
+
+</head>
+ 
+<body>
+    <div id="repeat">oops! this task is already present</div>
+   
+    <h1>to do list</h1>
+
+    <form id ="form1" >
+
+        <input id="todo" type="text" placeholder="add your todo" maxlength="100"
+         pattern="[A-Za-z0-9]+.*" title="first letter should be alphabet or a digit.">
+        <input  type="submit" value = "add">
+
+    </form>
+    
+    <div class="board"> 
+        <ul id="todo_list">
+            
+        </ul>
+
+       <div id = "card"></div>
+
+    </div>
+
+
+</body>
+
+</html>
