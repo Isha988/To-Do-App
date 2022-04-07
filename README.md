@@ -2,7 +2,7 @@
 
 - This is a to-do application, made with HTML, CSS and JavaScript.
 - It uses browser local storage for storing the list items.
-- It has all CRUD functionality and sub task list option.
+- It has all CRUD functionalities and sub task list option.
 - It is completely responsive.
 
 ## 🌐 Hosted At
