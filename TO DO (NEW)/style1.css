@@ -20,17 +20,16 @@
 
 
 
-h1 {
+.logo {
     background: red;
     width: 100%;
-    color:lavenderblush;
     text-align: center;
-    font-size: 40px;
-    line-height: 5rem;
-    padding-bottom: 5rem;
-    text-decoration: underline;
-
+    padding: 0.7rem 0 1.5rem 0;
 }
+.logo img {
+    width: 125px;
+}
+
 
 
 form {
